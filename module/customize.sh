@@ -10,7 +10,7 @@ export MODULE_HOT_RUN_SCRIPT="hotinstall.sh"
 # grab own info (version)
 versionCode=$(grep versionCode "$MODPATH/module.prop" | sed 's/versionCode=//g' )
 
-echo "[+] bindhosts v$versionCode "
+echo "[+] BindHosts v$versionCode "
 echo "[%] customize.sh "
 
 # Function to detect key press (Volume Up or Volume Down) or timeout
@@ -35,7 +35,7 @@ detect_key_press() {
     fi
 }
 
-# Installation prompt if bindhosts app is not installed
+# Installation prompt if BindHosts app is not installed
 pm path me.itejo443.bindhosts > /dev/null 2>&1 || [ -f "$PERSISTENT_DIR/bindhosts_webui" ] || {
     # Install App Section
     echo "[+] BindHosts-app, Ref:github.com/itejo443/BindHosts-app"

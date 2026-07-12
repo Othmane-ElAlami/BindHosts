@@ -158,13 +158,13 @@ if [ -w $target_hostsfile ] ; then
 	echo "bindhosts: service.sh - active" >> /dev/kmsg
 	# writable hosts file aye? 
 	# tell the user we are ready
-	string="description=status: ready 🚀"
+	string="description=Status: Ready 🚀"
 	# readout if bindhosts.sh did something
-	[ "$bindhosts_enabled" = true ] && string="description=status: active ✅ | blocked: $blocked_count 🚫 | custom: $custom_count 🤖 $helper_mode"
+	[ "$bindhosts_enabled" = true ] && string="description=Status: Active ✅ | Blocked: $blocked_count 🚫 | Custom: $custom_count 🤖 $helper_mode"
 	# read out if Adaway did something 
-	[ "$adaway_enabled" = true ] && string="description=status: active ✅ | 🛑 AdAway 🕊️"
+	[ "$adaway_enabled" = true ] && string="description=Status: Active ✅ | 🛑 AdAway 🕊️"
 else
-	string="description=status: failed 😭 needs correction 💢"
+	string="description=Status: Failed 😭 Needs Correction 💢"
 	touch $MODDIR/disable
 fi
 

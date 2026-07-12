@@ -34,7 +34,7 @@
     <string name="control_panel_add_language">أضف لغة</string>
     <string name="control_panel_get_tiles">أضف خيار في لوحة الإشعارات</string>
     <string name="control_panel_installing">يتم التثبيت...</string>
-    <string name="control_panel_installed">تم التثبيت, برجاء منح صلاحيات الروت لتطبيق Bindhosts</string>
+    <string name="control_panel_installed">تم التثبيت, برجاء منح صلاحيات الروت لتطبيق BindHosts</string>
     <string name="control_panel_download_fail">خطأ في التنزيل, برجاء التحقق من الاتصال بالإنترنت</string>
     <string name="control_panel_install_fail">فشل التثبيت, برجاء التثبيت يدويا, مسار التطبيق :  /sdcard/Download/bindhosts-app</string>
     <string name="control_panel_module_update">تحديث الإضافة</string>
@@ -120,7 +120,7 @@
     <string name="backup_restore_restore">استعادة التكوين</string>
     <string name="backup_restore_exported">تم حفظ التكوين في %s</string>
     <string name="backup_restore_export_fail">فشل تصدير التكوين</string>
-    <string name="backup_restore_invalid_config">تكوين bindhosts غير صالح</string>
+    <string name="backup_restore_invalid_config">تكوين BindHosts غير صالح</string>
     <string name="backup_restore_restored">تم استعادة التكوين بنجاح</string>
     <string name="backup_restore_restore_fail">فشل استعادة التكوين</string>
 </resources>

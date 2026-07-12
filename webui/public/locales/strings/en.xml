@@ -34,7 +34,7 @@
     <string name="control_panel_add_language">Add a Language</string>
     <string name="control_panel_get_tiles">Get QS Tile</string>
     <string name="control_panel_installing">Installing...</string>
-    <string name="control_panel_installed">Installed, please enable SU privilege for bindhosts app</string>
+    <string name="control_panel_installed">Installed, please enable SU privilege for BindHosts app</string>
     <string name="control_panel_download_fail">Failed to download, please check your internet connection</string>
     <string name="control_panel_install_fail">Failed to install, please manually install from /sdcard/Download/bindhosts-app</string>
     <string name="control_panel_module_update">Module Update</string>
@@ -120,7 +120,7 @@
     <string name="backup_restore_restore">Restore config</string>
     <string name="backup_restore_exported">Config saved to %s</string>
     <string name="backup_restore_export_fail">Fail to export config</string>
-    <string name="backup_restore_invalid_config">Invalid bindhosts config</string>
+    <string name="backup_restore_invalid_config">Invalid BindHosts config</string>
     <string name="backup_restore_restored">Config restored succesfully</string>
     <string name="backup_restore_restore_fail">Fail to restore config</string>
 </resources>

@@ -46,7 +46,7 @@ if pm path "$APP_PACKAGE" > /dev/null 2>&1 ; then
 	echo "APK installed successfully as a user app."
 	echo "[+] BindHosts-app Installed"
 	echo "[+] Enable SU with Capabilities"
-	echo "[+] Enable Tile Bindhosts-app Tile && Notification Permission"
+	echo "[+] Enable Tile BindHosts-app Tile && Notification Permission"
 else
 	echo "[x] Failed to install apk."
 	# Save the APK to the failsafe directory if devpts hooks fail

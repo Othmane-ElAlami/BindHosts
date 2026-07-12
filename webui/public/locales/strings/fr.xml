@@ -30,7 +30,7 @@
     <string name="control_panel_add_language">Ajouter une langue</string>
     <string name="control_panel_get_tiles">Ajouter une tuile Paramètres rapide</string>
     <string name="control_panel_installing">En cours d\'installation...</string>
-    <string name="control_panel_installed">Installé, veuillez activer les privilèges SU pour l\'application bindhosts</string>
+    <string name="control_panel_installed">Installé, veuillez activer les privilèges SU pour l\'application BindHosts</string>
     <string name="control_panel_download_fail">Échec du téléchargement, veuillez vérifier votre connexion internet</string>
     <string name="control_panel_install_fail">Échec de l\'installation, veuillez installer manuellement depuis /sdcard/Download/bindhosts-app</string>
     <string name="control_panel_module_update">Mise à jour du module</string>
@@ -108,7 +108,7 @@
     <string name="backup_restore_restore">Restaurer la configuration</string>
     <string name="backup_restore_exported">Configuration enregistrée vers %s</string>
     <string name="backup_restore_export_fail">Échec de l\'exportation de la configuration</string>
-    <string name="backup_restore_invalid_config">Configuration de bindhosts invalide</string>
+    <string name="backup_restore_invalid_config">Configuration de BindHosts invalide</string>
     <string name="backup_restore_restored">Configuration restaurée avec succès</string>
     <string name="backup_restore_restore_fail">Échec de la restauration de la configuration</string>
 </resources>

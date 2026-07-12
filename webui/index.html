@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bindhosts</title>
+    <title>BindHosts</title>
     <link rel="stylesheet" href="./index.css" type="text/css">
     <script type="module" crossorigin src="./index.js"></script>
     <script type="module" crossorigin src="./utils/docs.js"></script>
@@ -18,12 +18,12 @@
         </md-icon-button>
         <div class="title-container">
             <div>
-                <span id="title">bindhosts </span>
+                <span id="title">BindHosts </span>
                 <span id="version-text"></span>
             </div>
             <div class="file-name-editor">
                 <span>custom</span>
-                <input type="text" id="file-name-input" autocapitalize="off" oninput="replaceSpaces(this)">
+                <input type="text" id="file-name-input" title="File Name" placeholder="File Name" oninput="replaceSpaces(this)">
                 <span>.txt</span>
             </div>
         </div>
@@ -48,7 +48,7 @@
         <div class="rr-content">
             <div class="rr-image-box">
                 <div class="youtube-spinner"></div>
-                <image id="rick-roll-image" src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw"></image>
+                <img id="rick-roll-image" src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Rick Roll thumbnail" title="Rick Roll thumbnail">
             </div>
             <button class="close-rr-btn">
                 <span id="rr-coundown">5</span>
@@ -95,7 +95,7 @@
     <div class="constant-height slide-menu" id="edit-content">
         <div id="active-line-bar" class="active-line"></div>
         <div class="line-numbers"></div>
-        <textarea class="edit-input blur-box" id="edit-input"></textarea>
+        <textarea class="edit-input blur-box" id="edit-input" title="Editor" placeholder="Edit Content"></textarea>
     </div>
 
     <div class="constant-height blur-box slide-menu" id="action-terminal">
@@ -188,7 +188,7 @@
                         <p>https://adaway.org/hosts.txt</p>
                         <p>https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt</p>
                     </li>
-                    <br>
+                    <li aria-hidden="true"></li>
                     <li data-i18n="source_guide2"></li>
                     <li>
                         <p data-i18n="source_format"></p>
